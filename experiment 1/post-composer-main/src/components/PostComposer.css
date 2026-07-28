@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+.container{
+
+    width:500px;
+    margin:40px auto;
+    background:rgb(255, 255, 255);
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(248, 246, 246, 0.2);
+
+}
+
+h1{
+    text-align:center;
+    color:#333;
+}
+
+textarea{
+
+    width:100%;
+    height:150px;
+    resize:none;
+    padding:10px;
+    font-size:16px;
+    margin-top:20px;
+}
+
+.platforms{
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin:20px 0;
+
+}
+
+.counter{
+
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.green{
+
+    color:green;
+}
+
+.red{
+
+    color:red;
+}
+
+.success{
+
+    color:green;
+}
+
+.error{
+
+    color:red;
+}
+
+button{
+
+    width:100%;
+    padding:12px;
+    background:#0077ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    margin-top:20px;
+
+}
+
+button:hover{
+
+    background:#0057cc;
+}
+
+.filename{
+
+    margin-top:10px;
+    color:#555;
+}
+
+@media(max-width:600px){
+
+.container{
+
+    width:90%;
+}
+
+}
+@media(max-width:600px){
+
+.container{
+
+    width:90%;
+}
+
+}
+
+/* Paste below this */
+
+.publishedPost{
+
+    margin-top:20px;
+    padding:15px;
+    background:#f4f4f4;
+    border-radius:10px;
+    border-left:5px solid #0077ff;
+
+}
+
+.publishedPost h4{
+
+    color:#0077ff;
+    margin-bottom:10px;
+
+}
+
+.publishedPost p{
+
+    margin:5px 0;
+
+}
